@@ -1,0 +1,24 @@
+src/
+  main.cpp
+  server.hpp / server.cpp
+  session.hpp / session.cpp
+  broker.hpp / broker.cpp
+  message.hpp / message.cpp
+  logger.hpp / logger.cpp
+  metrics.hpp / metrics.cpp
+
+tests/
+  broker_tests.cpp
+
+CMakeLists.txt
+README.md
+
+
+main.cpp
+  starts the program
+
+TcpServer
+  listens for clients
+
+ClientSession
+  talks to one client
