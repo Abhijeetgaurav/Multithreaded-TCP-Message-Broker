@@ -200,7 +200,7 @@ messages_delivered=1
 Run:
 
 ```bash
-cd /mnt/e/Switch/tcp_project/build
+cd build
 ./broker_tests
 ```
 
