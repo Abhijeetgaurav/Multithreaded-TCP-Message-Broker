@@ -100,7 +100,9 @@ sudo apt install -y build-essential cmake libboost-all-dev
 Build:
 
 ```bash
-cd /mnt/e/Switch/tcp_project
+Clone the repository:
+git clone https://github.com/Abhijeetgaurav/Multithreaded-TCP-Message-Broker.git
+Create a build directory and compile:
 mkdir -p build
 cd build
 cmake ..
@@ -110,7 +112,7 @@ cmake --build .
 ## Run The Server
 
 ```bash
-cd /mnt/e/Switch/tcp_project/build
+cd build
 ./tcp_server
 ```
 
